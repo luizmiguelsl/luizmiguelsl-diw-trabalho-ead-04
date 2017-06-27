@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+	   Validação de Senha - Luiz Miguel e Patricia Maciel 
+	  </title>
+	  <script type='text/javascript' src='efeitos.js'> </script>
+  </head>
+  <body>
+    <p>
+	  Regras para a formulação da senha:	  
+    </p>
+    <ul>
+      <li>
+        A senha deve ter pelo menos 8 caracteres.
+      </li>
+      <li>
+        A senha deve possuir pelo menos 3 dos 4 critérios abaixo:
+        </li>
+      <ul>
+        <li>
+        Possuir pelo menos 1 caractere minúsculo:
+      </li>
+        <li>
+        Possuir pelo menos 1 caractere maiúsculo:
+      </li>
+        <li>
+        Possuir pelo menos 1 caractere numérico:
+      </li>		
+      <li>
+        Possuir pelo menos 1 caractere símbolo:
+      </li>
+      </ul>
+    </ul>
+      <form action='' method='post'>
+      <p> 
+        Digite uma senha qualquer: <input id='edtSenha' type='password' name='edit1' />
+      </p>
+      <p>
+        <span  class='dadosSenha' id='spansenhaInserida'>                  </span> <br />
+        <span  class='dadosSenha' id='spanCaracteresTotal'>      </span> <br />
+        <span  class='dadosSenha' id='spanCaracteresMinusculos'> </span> <br />
+        <span  class='dadosSenha' id='spanCaracteresMaiusculos'> </span> <br />
+        <span  class='dadosSenha' id='spanCaracteresSimbolos'>             </span> <br />
+        <span  class='dadosSenha' id='spanQuantidadeNumeros'>              </span> <br /> 
+        <span  class='dadosSenha' id='spanCriteriosAprovados'>             </span> <br /><br />	
+        <input type='checkbox'    id='SenhaAceitavel' />Senha aceitável?		
+      </p>
+    
+  </body>
+</html>
